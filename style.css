@@ -48,10 +48,10 @@ nav div {
     text-align : center ;
 }
 
-#Uk {
+#France {
     position : absolute ;
     right : 10px ;
-    background : url('Images/ukflag.jpg') no-repeat top left ;
+    background : url('Images/france.jpg') no-repeat top left ;
     width : 40px ;
     height : 30px ;
 }
