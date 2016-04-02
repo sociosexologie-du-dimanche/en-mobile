@@ -394,7 +394,6 @@ var imagesCathos = document.getElementById('imagesCathos'),     // Récupératio
     chiffre = document.getElementById('chiffreInfoCathos'),     // Récupération de la div contenant les chiffres
     // Remplissage variables de texte contenant les chiffres
     texteDepart = "How many catholic people have already had an homosexual intercourse ?",
- 
     cathoOui = "<img src='Images/cathoOui.png' width='15p' height='30'/>" ,
     cathoNon = "<img src='Images/cathoNon.png' width='15p' height='30'/>",
     atheeOui = "<img src='Images/atheeOui.png' width='15p' height='30'/>" ,
@@ -421,6 +420,7 @@ var alignerImages = function (religion,imageOui,imageNon,nombreOui) {
         religion.appendChild(petitBloc) ;
         petitBloc.innerHTML = imageNon ;
     }
+};
 
 
 chiffre.innerHTML = texteDepart ; // remplissage par le texte de départ à l'ouverture de la page
